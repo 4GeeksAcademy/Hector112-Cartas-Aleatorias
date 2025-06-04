@@ -1,0 +1,35 @@
+logica de generacion de evento onload
+declarar array => Palos y Numeros
+Generar los valores aleatorios => palos y numeros    //Math floor (Math.random()*"Numeros de datos del array")
+Manipular el dom
+    Obtener elemento => document.querySelector("identificar elemento")
+    manipularlo => html(textContent, innerHTML), css(style.propiedad, classlist), event
+Condicionales de palos con su color
+    Si el valor palo es corazon o diamante = Rojo -> sino = negro
+       
+    
+
+Crear la carta a nivel html
+
+
+Cuando se refresque la pagina se genera una carta aleatoria
+
+Variable de los palos
+    -Treboles   ♣
+    -Picas      ♠
+    -Diamantes  ♦ 
+    -corazones  ♥
+
+
+Variables de los valores
+    -As  -2   -3
+    -4   -5   -6   
+    -7   -8   -9
+    -J   -Q   -K 
+    
+
+Cambio de color segun el palos
+    -Rojo = Diamantes, Corazones
+    -Negro = Treboles, Picas
+
+
